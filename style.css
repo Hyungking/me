@@ -1,0 +1,56 @@
+html{
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    text-transform: capitalize;
+    margin: 10%;
+    padding: 10%;
+}
+
+.assign{
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    padding:0.5em;
+}
+
+.card{
+   border-radius: 10px;
+   overflow: hidden;
+   box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+   width: 50%;  
+   flex-direction: column;
+   background-color: darkgrey;
+}
+
+.card .container{
+    padding: 5px 20px;
+    margin: 5px 20px;
+}
+
+.card p{
+    margin: 5%;
+    padding: 5%;
+    
+
+}
+
+img{
+    height: auto ;
+    max-width :40%!important;
+    min-height:auto !important;
+    object-fit: cover;
+    position: relative;
+    top:20px;
+}
+
+button{
+    color:#fff;
+    cursor: pointer;
+    outline: olive;
+    background-color: black;
+    border-radius: 10%;
+    margin: 2rem;
+}
